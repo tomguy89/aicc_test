@@ -1,0 +1,17 @@
+project:
+  name: AICC
+  version: 1.0.0
+
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: ./logs
+
+telegram:
+  master.bot:
+    token: 7174180804:AAGzSUxZdFtelZ-ELRayfPyccd-wVYLmAUA
+    name: AICC_MasterBot
+
+openai:
+  api.key: sk-proj-0ZnBDvGf0LlgnwjJQegPT3BlbkFJeuPp5vN5uYK0Fgw1y7WO
+
